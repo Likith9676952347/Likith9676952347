@@ -1,0 +1,114 @@
+                                    
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> CSS Paddding for individual sides</title>
+        <style>
+            h1 {
+      padding-top: 50px;
+      padding-bottom: 100px;
+      background: lime;
+            }
+            p{
+                padding-left: 75px;
+                padding-left: 75px;
+                background: lime;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> this is heading</h1>
+        <p> this is a simple paragraph of text.</p>
+        <p><strong>Note:</strong>play with padding property valueto see how it works.</p>
+    </body>
+     </html>
+
+
+             creating boredrs and text in bordders
+ 
+         <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> CSS border-style property</title>
+        <style>
+            p {
+            border-width: 15px;
+            background: yellow;
+            padding: 20px;
+            margin:20px;
+            }
+            p.none {
+                border-style: none;
+            }
+            p.hidden {
+                border-style: hidden;
+            }
+            p.dotted {
+                border-style: dotted;
+            }
+            p.Solid {
+                border-style: Solid;
+            }
+            p.double border {
+                border-style: double border;
+            }
+            p.inset border {
+                border-style: inset border;
+            }
+            p.outset border {
+                border-style: outset border;
+            }
+            p.groove {
+                border-style: groove;
+            }
+            p.ridge {
+                border-style: ridge;
+            }
+            p.inset {
+                border-style: outset;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="none">No border.</p>
+        <p class="dotted">A dotted border.</p>
+        <p class="dashed"> A dashed border.</p>
+        <p class="Solid">A Solid border.</p>
+        <p class="double">A double border.</p>
+        <p class="inset">A inset border.</p>
+        <p class="outset"> A outset border.</p>
+        <p class="groove"> A groove border.</p>
+        <p class=" ridge"> A ridge border.</p>
+    </body>
+  
+                                   placing borders at absolute position
+ 
+                            <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Example of css positioning</title>
+        <style>
+            p {
+                width:200px;
+                padding: 10px;
+            }
+            .up {
+                background: #ee665a;
+                position: absolute ;
+                top: 0;
+            }
+            .down {
+                background: #b0d877;
+                position:absolute ;
+                bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <p class ="up" > this paragraph is placed at the top of the documents viewport.</p>
+        <p class="down"> this paragraph is placed at the bottom of the documents viewport.</p>
+    </body>
